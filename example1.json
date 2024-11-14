@@ -1,0 +1,7 @@
+{
+  "title": "ドットリスト",
+  "description": "シンプルな点付きリスト",
+  "html": "<ul class=\"dotted-list\">\n  <li>リストの項目1</li>\n  <li>リストの項目2</li>\n  <li>リストの項目3</li>\n</ul>",
+  "css": ".dotted-list {\n  list-style: none;\n  padding: 0;\n}\n\n.dotted-list li {\n  position: relative;\n  padding-left: 1.5em;\n  margin-bottom: 0.5em;\n}\n\n.dotted-list li::before {\n  content: \"\";\n  position: absolute;\n  left: 0;\n  top: 0.5em;\n  width: 6px;\n  height: 6px;\n  border-radius: 50%;\n  background-color: #2196F3;\n}",
+  "tag": "リスト"
+}
